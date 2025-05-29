@@ -1,0 +1,138 @@
+
+body{
+    background-color: rgb(11, 12, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    width: 5rem;
+    height: 5rem;
+    padding-left: 2rem;
+    margin-top: 4px;
+ 
+}
+.menu{
+    background-color: rgba(255, 255, 255);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+   
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    padding-right: 8rem; 
+    align-items: center;
+
+}
+aa:hover{
+    color: rgb(90, 10, 10);
+}
+
+.sobre{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simulador{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacao{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipe{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.img-container{
+    justify-items: center;
+}
+.img-content{
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-centro{
+    width: 570px;
+    height: auto;
+    display:flex;
+    padding: 110px;
+    justify-content: center;
+    border-radius: 170px;
+}
+
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.conteiner-rodape{
+   display: inline-flex;
+     justify-items: center;
+}
+
+.rodape{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.logo-senai{
+ width: 10%;
+ display: flex;
+
+}
+
+.logoll{
+ width: 5%;
+ height: 5%;
+ border-radius: 188%;
+
+}
+.logo-emides{
+    width: 5%;
+    height: 5%;
+}
+
+.facebook{
+    width: 190px;
+    height: 100px;
+   
+}
+.instagram{
+    width: 190px;
+    height: 100px;
+}
+

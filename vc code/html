@@ -1,0 +1,62 @@
+import pygame
+import math
+import sys
+
+# Inicializa o Pygame
+pygame.init()
+
+# Tamanho da janela
+largura, altura = 800, 600
+tela = pygame.display.set_mode((largura, altura))
+pygame.display.set_caption("Simulador - Modelo Atômico de Bohr")
+
+# Cores
+PRETO = (0, 0, 0)
+BRANCO = (255, 255, 255)
+AZUL = (50, 150, 255)
+AMARELO = (255, 200, 0)
+
+# Dados dos níveis de energia
+niveis = [
+    {"raio": 60, "vel": 0.05, "cor": AZUL, "quantidade": 2},
+    {"raio": 100, "vel": 0.03, "cor": AZUL, "quantidade": 8},
+    {"raio": 140, "vel": 0.02, "cor": AZUL, "quantidade": 8}
+]
+
+centro_x = largura // 2
+centro_y = altura // 2
+
+# Ângulos iniciais dos elétrons em cada nível
+angulos = [
+    [i * (2 * math.pi / nivel["quantidade"]) for i in range(nivel["quantidade"])]
+    for nivel in niveis
+]
+
+# Relógio do Pygame
+relogio = pygame.time.Clock()
+
+# Loop principal do simulador
+while True:
+    for evento in pygame.event.get():
+        if evento.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    tela.fill(PRETO)
+
+    # Desenhar núcleo
+    pygame.draw.circle(tela, AMARELO, (centro_x, centro_y), 10)
+
+    # Desenhar níveis e elétrons
+    for i, nivel in enumerate(niveis):
+        raio = nivel["raio"]
+        pygame.draw.circle(tela, BRANCO, (centro_x, centro_y), raio, 1)
+
+        for j in range(nivel["quantidade"]):
+            angulos[i][j] += nivel["vel"]
+            x = centro_x + math.cos(angulos[i][j]) * raio
+            y = centro_y + math.sin(angulos[i][j]) * raio
+            pygame.draw.circle(tela, nivel["cor"], (int(x), int(y)), 5)
+
+    pygame.display.flip()
+    relogio.tick(60)

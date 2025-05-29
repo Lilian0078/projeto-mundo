@@ -1,0 +1,226 @@
+body{
+    background-color: rgb(11, 12, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.dalton{
+    display: flex;
+    color: aliceblue;
+    justify-content:left;
+    text-align: center;
+    margin-left: 300px;
+}
+.linha01{
+    font-size: 20px;
+    border-left: 5px solid white;
+    color: rgb(201, 22, 22);
+    font-size: larger;
+    height: 670px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.img-modelo1{
+    margin-left: 150px;
+    margin-top: 32px;
+    padding-right: 200px;
+}
+
+.thomson{
+    display: flex;
+    color: aliceblue;
+    justify-content:left;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.linha02{
+    font-size: 20px;
+    border-left: 5px solid white;
+    color: rgb(201, 22, 22);
+    font-size: larger;
+    height: 670px;
+    align-items: center;
+    margin-left: 150px;
+}
+.img-modelo2{
+    margin-left: 150px;
+    margin-top: 32px;
+}
+
+.rutherford{
+    display: flex;
+    color: aliceblue;
+    justify-content:left;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.linha03{
+    font-size: 20px;
+    border-left: 5px solid white;
+    color: rgb(201, 22, 22);
+    font-size: larger;
+    height: 670px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.img-modelo3{
+    margin-left: 150px;
+    margin-top: 32px;
+}
+
+.bohr{
+    display: flex;
+    color: aliceblue;
+    justify-content:left;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.linha04{
+    font-size: 20px;
+    border-left: 5px solid white;
+    color: rgb(201, 22, 22);
+    font-size: larger;
+    height: 670px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.img-modelo4{
+    margin-left: 150px;
+    margin-top: 32px;
+}
+
+.introducao{
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom:20px;
+    margin-left: 85px;
+    margin-right:85px;
+}
+h2{
+    color: aliceblue;
+}
+.img1{
+    width: 5rem;
+    height: 5rem;
+    padding-left: 2rem;
+    margin-top: 4px;
+ 
+}
+.menu{
+    background-color: rgba(255, 255, 255);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+   
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    padding-right: 8rem; /*Borda*/
+    align-items: center;
+
+}
+a:hover{
+    color: brown;
+}
+.img-container{
+    justify-items: center;
+}
+.img-content{
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-centro{
+    width: 570px;
+    height: auto;
+    display:flex;
+    padding: 110px;
+    justify-content: center;
+    border-radius: 170px;
+}
+
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-rodape{
+   display: inline-flex;
+     justify-items: center;
+}
+
+.rodape{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.logo-senai{
+ width: 10%;
+ display: flex;
+
+}
+
+.logoll{
+ width: 5%;
+ height: 5%;
+ border-radius: 188%;
+
+}
+
+.logo-emides{
+    width: 5%;
+    height: 5%;
+}
+/*
+hr{
+    color: rgb(240, 29, 29);
+    border: 2px;
+}
+*/
+.facebook{
+    width: 190px;
+    height: 100px;
+   
+}
+.instagram{
+    width: 190px;
+    height: 100px;
+}
+
+.equipe{
+    justify-items: center;
+    display: flex;
+}
