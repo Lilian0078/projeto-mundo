@@ -15,6 +15,11 @@ body{
     text-align: center;
 }
 
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
 
 .dalton{
     display: flex;
@@ -147,8 +152,69 @@ ul{
 
 }
 a:hover{
-    color: brown;
+    color: rgb(90, 10, 10);
 }
+
+.sobrex{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simuladorr{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacaoo{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipe{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+
+
+.sobre{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simulador{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacao{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipe{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
 .img-container{
     justify-items: center;
 }
@@ -223,4 +289,5 @@ hr{
 .equipe{
     justify-items: center;
     display: flex;
+    background-color: rgb(11, 12, 54) ;
 }

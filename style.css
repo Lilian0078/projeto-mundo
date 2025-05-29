@@ -20,7 +20,6 @@ body{
     border-radius: 0.5rem;
     width: 100%;
     height: auto;
-   
 }
 .menu-content{
     display: flex;
@@ -33,11 +32,55 @@ ul{
     gap: 10rem;
     padding-right: 8rem; /*Borda*/
     align-items: center;
+    color: rgb(255, 255, 255);
 
 }
 a:hover{
-    color: brown;
+    color: rgb(133, 33, 8);
 }
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.mundool{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 500px;
+    
+}
+
+.sobre{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simulador{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacao{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipe{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
 .img-container{
     justify-items: center;
 }

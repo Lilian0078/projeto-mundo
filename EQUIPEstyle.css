@@ -1,128 +1,170 @@
-body{
+body {
     background-color: rgb(11, 12, 54);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    
+
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
 
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
 
 
-
-
-.img1{
+.img1 {
     width: 5rem;
     height: 5rem;
     padding-left: 2rem;
     margin-top: 4px;
- 
+
 }
-.menu{
+
+.menu {
     background-color: rgba(255, 255, 255);
     border-radius: 0.5rem;
     width: 100%;
     height: auto;
-   
+
 }
-.menu-content{
+
+.menu-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-ul{
+
+ul {
     display: flex;
     list-style: none;
     gap: 10rem;
-    padding-right: 8rem; /*Borda*/
+    padding-right: 8rem;
+    /*Borda*/
     align-items: center;
 
 }
+
 a:hover{
-    color: brown;
+    color: rgb(90, 10, 10);
 }
-.img-container{
+
+.sobre{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simulador{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacao{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipex{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.img-container {
     justify-items: center;
 }
-.img-content{
+
+.img-content {
     justify-items: center;
     display: flex;
     justify-content: center;
 }
-.img-centro{
+
+.img-centro {
     width: 570px;
     height: auto;
-    display:flex;
+    display: flex;
     padding: 110px;
     justify-content: center;
     border-radius: 170px;
 }
 
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     justify-content: center;
 }
 
-.conteiner-rodape{
+.conteiner-rodape {
     display: inline-flex;
-      justify-items: center;
- }
+    justify-items: center;
+}
 
 
- .rodape{
+.rodape {
     background-color: aliceblue;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
-}
-
-
-.logo-senai{
- width: 10%;
- display: flex;
 
 }
 
-.logoll{
- width: 5%;
- height: 5%;
- border-radius: 188%;
+
+.logo-senai {
+    width: 10%;
+    display: flex;
 
 }
 
-.logo-emides{
+.logoll {
+    width: 5%;
+    height: 5%;
+    border-radius: 188%;
+
+}
+
+.logo-emides {
     width: 5%;
     height: 5%;
 }
+
 /*
 hr{
     color: rgb(240, 29, 29);
     border: 2px;
 }
 */
-.facebook{
+.facebook {
     width: 190px;
     height: 100px;
-   
+
 }
-.instagram{
+
+.instagram {
     width: 190px;
     height: 100px;
 }
 
-.equipe{
+.equipe {
     display: flex;
     justify-items: center;
 }
 
-.lanninha{
+.lanninha {
     width: 76%;
     height: 60%;
     border-radius: 250%;
@@ -130,10 +172,44 @@ hr{
     margin-top: 60px;
 }
 
-.lila{
+.lila {
     width: 20%;
     height: 60%;
     border-radius: 100%;
     margin-left: 58%;
     margin-top: 60px;
+}
+
+.textos {
+    display: flex;
+    justify-items: center;
+    color: aliceblue;
+}
+
+.textlanna {
+    margin-left: 15%;
+    margin-right:35%;
+    font-size: 150%;
+}
+
+
+.textlilian{
+margin-right: 18%;
+font-size: 150%;
+}
+
+.nomes{
+    display: flex;
+    color: aliceblue;
+    font-size: 150%;
+    justify-content: center;
+}
+
+.nomelanna{
+    margin-top: -5%;
+    margin-right: 42%;
+}
+
+.nomelilian{
+    margin-top: -5%;
 }

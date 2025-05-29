@@ -15,6 +15,13 @@ body{
     margin-top: 4px;
  
 }
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
 .menu{
     background-color: rgba(255, 255, 255);
     border-radius: 0.5rem;
@@ -36,8 +43,67 @@ ul{
 
 }
 a:hover{
-    color: brown;
+    color: rgb(90, 10, 10);
 }
+
+.sobreex{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simuladorg{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacaox{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipela{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.sobre{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simulador{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacao{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipe{
+    padding: 10px 20px;
+    border: 2px solid #081486; 
+    background-color: #081486;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
 .img-container{
     justify-items: center;
 }
@@ -141,5 +207,48 @@ hr{
 .instagram{
     width: 190px;
     height: 100px;
+}
+
+.titulo{
+    color: aliceblue;
+    justify-items: center;
+    font-size: 200%;
+    margin-top: 2%;
+}
+
+.informacoes{
+    color: aliceblue;
+    justify-items: center;
+    background-color: rgb(5, 2, 44);
+    border-radius: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.5;
+    margin-top: 1%;
+}
+
+.um{
+    font-size: 150%;
+    margin-left: 3%;
+}
+
+.dois{
+    font-size: 150%;
+    margin-left: 3%;
+}
+
+.tres{
+    font-size: 150%;
+    margin-left: 3%;
+}
+
+.quatro{
+    font-size: 150%;
+    margin-left: 3%;
+}
+
+p{
+    margin-left: 3%;
+    font-size: 120%;
 }
 
