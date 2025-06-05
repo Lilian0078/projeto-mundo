@@ -142,4 +142,78 @@ aa:hover{
     width: 190px;
     height: 100px;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #010633;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.conteudo-principal h1 {
+    color: #f0f1f3;
+    font-size: 36px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.conteudo-principal h2 {
+    color: #34a2fc;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+/* Container das caixas */
+.container-caixas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+/* Estilo da única caixa central */
+.caixa {
+    background-color: white;
+    border: 3px solid #007BFF;
+    width: 800px;
+    height: 300px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: #010633;
+}
+
+/* Nome dentro da caixa */
+ h3 {
+    color: #0a131f;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Efeito hover */
+.caixa:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(170, 9, 9, 0.2);
+    cursor: pointer;
+}
+
+.caixa a {
+    color: #34a2fc;  /* azul claro */
+    text-decoration: none; /* tirar sublinhado, se quiser */
+  }
+  
+  /* Para o hover do link na caixa */
+  .caixa a:hover {
+    color: #34a2fc; /* tom mais escuro para hover */
+    text-decoration: underline;
+  }
 
