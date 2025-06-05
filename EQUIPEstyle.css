@@ -165,38 +165,44 @@ hr{
 }
 
 .lanninha {
-   width:50%;
-   height:63%;
+   width:60%;
+   height:65%;
    margin-left:21%;
    margin-top:7%;
    border-radius:50%;
 }
 
+
 .lila {
-   width: 50%;
-   height:63%;
+   width: 60%;
+   height:65%;
    margin-left:21%;
    margin-top:7%;
    border-radius:50%;
 }
+
 
 .textos {
     display: flex;
-    justify-items: center;
+    justify-items: left;
     color: aliceblue;
 }
 
+
 .textlanna {
-    margin-left: 15%;
-    margin-right:35%;
+    margin-left: 10%;
+    margin-right:15%;
     font-size: 150%;
 }
 
 
 .textlilian{
-margin-right: 18%;
+
+margin-left: 0%;
+margin-right:15%;
 font-size: 150%;
 }
+
 
 .nomes{
     display: flex;
@@ -205,11 +211,16 @@ font-size: 150%;
     justify-content: center;
 }
 
+
 .nomelanna{
     margin-top: -5%;
-    margin-right: 42%;
+    margin-right: 20%;
 }
+
 
 .nomelilian{
     margin-top: -5%;
+    margin-right: 4%;
+    margin-left: 20%;
 }
+
