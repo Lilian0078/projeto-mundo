@@ -295,4 +295,21 @@ hr{
     width: 190px;
     height: 100px;
 }
+.ImagemMundoSenai04 {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    font-style:unset;
+    font-size: 30px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.ImagemMundoSenai04 img {
+    width: 750px; /* Ajuste o tamanho conforme desejar */
+    height: auto;
+    margin-left: 2%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
 
