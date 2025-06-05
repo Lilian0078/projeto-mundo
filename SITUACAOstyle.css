@@ -253,3 +253,52 @@ p{
     font-size: 120%;
 }
 
+
+.bloco {
+    background-color: #0e1a66;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 25px auto;
+    width: 90%;
+    color: white;
+    border: 1px solid #2f59ff;
+}
+
+.bloco h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #b3cfff;
+    border-bottom: 1px solid #3758ff;
+    padding-bottom: 5px;
+}
+
+.bloco p, .bloco li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.bloco ul, .bloco ol {
+    margin-left: 20px;
+}
+
+.bloco ul li::marker,
+.bloco ol li::marker {
+    color: #59a9ff;
+}
+
+.informacoes {
+    width: 70%;
+    margin: 2% auto;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.titulo p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
