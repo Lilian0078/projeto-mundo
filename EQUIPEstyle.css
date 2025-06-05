@@ -165,19 +165,19 @@ hr{
 }
 
 .lanninha {
-    width: 76%;
-    height: 60%;
-    border-radius: 250%;
-    margin-left: 80%;
-    margin-top: 60px;
+   width:50%;
+   height:63%;
+   margin-left:21%;
+   margin-top:7%;
+   border-radius:50%;
 }
 
 .lila {
-    width: 20%;
-    height: 60%;
-    border-radius: 100%;
-    margin-left: 58%;
-    margin-top: 60px;
+   width: 50%;
+   height:63%;
+   margin-left:21%;
+   margin-top:7%;
+   border-radius:50%;
 }
 
 .textos {
